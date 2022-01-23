@@ -4,8 +4,9 @@ import requests
 
 
 
-name=input('what')
-print('hello',name)
+r=requests.get("https://coreyms.com")
+print(r.status_code)
+
 
 
 
